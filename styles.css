@@ -11,7 +11,7 @@ body {
 
 /* Styling for the playlist container */
 .Playlist {
-	border: 1px solid black;
+	border: 2px solid black;
 	border-radius: 10px;
 	padding: 15px;
 	margin: 15px;
@@ -26,24 +26,25 @@ h1, h2 {
 /* Styling for links */
 a {
 	text-decoration-line: none;
+	color: black;
 }
-
+ul{
+	list-style-type: none;
+}
 /* Styling for the first player */
-.player_one {
+.player_one, .player_two {
 	background-color: rgb(255, 255, 255);
 	border-radius: 10px;
 	margin: 10px;
-	border: 1px solid black;
 	padding: 15px;
 }
 
 /* Styling for the second player */
-.player_two {
-	background-color: rgb(255, 255, 255);
-	width: 100%;
+.player_one{
+	border: 2px solid black;
 }
 
 /* Styling for audio elements */
-audio {
+audio, video{
 	width: 100%;
 }
