@@ -1,52 +1,33 @@
-/* Global styles */
-body {
-	background-color: rgb(204, 204, 204);
+/*  your css code here. If applicable */
+body{
+	background-color:#cccccc;
 }
-
-/* Styling for the player section */
-.player {
-	width: 100%;
-	border-radius: 10px;
-}
-
-/* Styling for the playlist container */
-.Playlist {
-	border: 2px solid black;
-	border-radius: 10px;
-	padding: 5px;
-	margin: 5px;
-	background-color: rgb(255, 255, 255);
+.player_one{
+	background-color:white;
+	padding-top:30px;
+	padding-bottom:30px;
+	border-radius:10px;
+	border:2px solid black;
 	
 }
-
-/* Center-align headings */
-h1, h2 {
-	text-align: center;
-}
-
-/* Styling for links */
-a {
-	text-decoration-line: none;
-	color: black;
-}
-ul{
-	list-style-type: none;
-}
-/* Styling for the first player */
-.player_one, .player_two {
-	background-color: rgb(255, 255, 255);
-	border-radius: 10px;
-	margin: 10px;
-	padding: 15px;
-}
-
-/* Styling for the second player */
-.player_one{
-	border: 2px solid black;
+.player_two{
+	width:320px;
 	background-color:white;
+	padding:10px;
+	margin:auto;
+	border:2px solid black;
+	border-radius:10px;
+}
+h1{
+	text-align:center;
+}
+h2{
+	text-align:center;
+}
+li{
+	list-style-type:none;
 }
 
-/* Styling for audio elements */
-audio, video{
-	width: 100%;
+a{
+	text-decoration-line:none;
 }
